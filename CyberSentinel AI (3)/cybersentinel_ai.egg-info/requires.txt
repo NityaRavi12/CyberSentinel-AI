@@ -1,0 +1,17 @@
+torch
+transformers
+peft
+datasets
+faiss-cpu
+nomic
+instructor
+ollama
+fastapi
+uvicorn
+pydantic
+pyyaml
+numpy
+pandas
+scikit-learn
+requests
+aiohttp

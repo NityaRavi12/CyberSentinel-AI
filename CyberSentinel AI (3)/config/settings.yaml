@@ -1,0 +1,24 @@
+# CyberSentinel AI - ATITA Configuration
+
+agent_orchestration:
+  coordinator_timeout: 60
+  triage_timeout: 30
+  enrichment_timeout: 45
+  escalation_timeout: 15
+
+model:
+  path: ./data/models/
+  threat_classification_threshold: 0.8
+
+external_apis:
+  virustotal_api_key: ""
+  alienvault_api_key: ""
+  threatfox_api_key: ""
+
+database:
+  postgres_url: postgresql://user:password@localhost:5432/cybersentinel
+  mongodb_url: mongodb://localhost:27017/cybersentinel
+
+logging:
+  level: INFO
+  file: ./logs/cybersentinel.log 
